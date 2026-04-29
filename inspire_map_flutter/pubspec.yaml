@@ -1,0 +1,101 @@
+name: inspire_map_flutter
+description: 《灵感经纬》- 基于大模型与地图交互的智能伴游社区
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  maplibre_gl: ^0.25.0
+  http: ^1.2.0
+
+  # 网络请求
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+
+  # 状态管理
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # 路由管理
+  go_router: ^13.0.1
+
+  # 本地存储
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # 基础功能
+  cupertino_icons: ^1.0.6
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  equatable: ^2.0.5
+
+  # UI 组件
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  flutter_slidable: ^3.0.1
+  pull_to_refresh: ^2.0.0
+
+  # 工具类
+  intl: ^0.20.2
+  logger: ^2.0.2
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.1.0
+  device_info_plus: ^9.1.1
+  package_info_plus: 9.0.1
+
+  # 图片处理
+  cached_network_image: ^3.3.1
+  image_picker: ^1.0.7
+
+  # 地图聚合与计算
+  google_polyline_algorithm: ^3.0.0
+
+  # 动画与特效
+  flutter_animate: ^4.3.0
+  lottie: ^3.0.0
+  sensors_plus: ^7.0.0
+
+  # 字体
+  google_fonts: ^6.2.0
+
+  # 特殊 UI 组件
+  smooth_page_indicator: ^1.1.0
+  flutter_staggered_grid_view: ^0.7.0
+  timelines_plus: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+  # 代码生成
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  retrofit_generator: ^8.0.6
+  riverpod_generator: ^2.3.9
+  hive_generator: ^2.0.1
+  go_router_builder: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/wechat.svg
+    - assets/icons/qq.svg
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+    - assets/geo/
+
